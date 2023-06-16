@@ -1,5 +1,23 @@
-Aprašymas: Web puslapis skirtas namų, butų administravimui. Info pateikimas bendrijai.
+Aprašymas: Web puslapis skirtas  butų administravimui.
+Gyventoju app.
+Gyventojas:
+vardas
+Pavarde
+Email
+buto nr.
 
-Duomenys: Vardas Pavardė Telefono nr. Buto, namo numeris
 
-Administracija: Nauju narių registracija Informacija gyventojams Balsavimas Budziatas
+Butas:
+Plotas kv.
+Gyventojas
+
+
+Administravimas:
+Biudžiatas
+Balsavimas
+Įnašas
+Išlaidos
+
+
+
+Administravimas turės galimybe tvarkyti išlaidas bei žmonių įnašus. Kontruoliuoti balsavimus
