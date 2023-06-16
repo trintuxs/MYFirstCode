@@ -1,4 +1,4 @@
-Aprašymas: Web puslapis skirtas namų, butų administravimui. INfo pateikimas bendrijai.
+Aprašymas: Web puslapis skirtas namų, butų administravimui. Info pateikimas bendrijai.
 
 Duomenys: Vardas Pavardė Telefono nr. Buto, namo numeris
 
