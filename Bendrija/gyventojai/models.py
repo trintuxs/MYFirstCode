@@ -6,6 +6,7 @@ class Gyventojas(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     vardas = models.CharField(max_length=50, verbose_name="Vardas")
     pavarde = models.CharField(max_length=50, verbose_name="Pavardė")
+    email = models.CharField(max_length=50, verbose_name="Elektroninis paštas")
     butas_namas = models.ForeignKey('Butas',on_delete=models.SET_NULL, null=True, related_name='savininkas')
 
     created_at = models.DateTimeField(auto_now_add=True)
