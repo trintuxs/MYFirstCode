@@ -21,6 +21,3 @@ Išlaidos
 
 
 Administravimas turės galimybe tvarkyti išlaidas bei žmonių įnašus. Kontruoliuoti balsavimus
-
-
-
