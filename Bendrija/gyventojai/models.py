@@ -29,4 +29,11 @@ class Butas(models.Model):
         verbose_name_plural = 'Butas'
 
 
+class Vadovybe(models.Model):
+    darbuotojas = models.ForeignKey(User, on_delete=models.CASCADE)
+    vardas = models.CharField(max_length=70, verbose_name="Vardas")
+    pavarde = models.CharField(max_length=70, verbose_name="Pavarde")
+    pareigos = models.CharField(max_length=120,  verbose_name="Pareigos")
+    atliginimas = models.IntegerField( verbose_name="Atliginimas")
+    darbai = models.IntegerField(verbose_name="Islaidos uz darbus")
 
